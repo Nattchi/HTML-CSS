@@ -1,6 +1,6 @@
 /*Window 背景色設定*/
 body{
-    background-color: #fbf9cc;
+    background: #fbf9cc url(../img/bg-stripe01.png) repeat-x;
 }
 
 /*link 色の設定*/
@@ -48,6 +48,8 @@ dt{
 /*「もっとみる」 リンクの設定*/
 .more{
     text-align: right;
+    padding-right: 20px;
+    background: url(../img/icon-arw01.png) no-repeat right center;
 }
 
 /*毛皮・性別情報(共通)*/
@@ -63,4 +65,11 @@ dt{
 
 .cat-type.female{
     color: #df972f;
+}
+
+/* frame の設定*/
+.frame{
+    margin: 20px 0;
+    padding: 35px 30px 30px 30px;
+    background: url(../img/bg-stripe02.png) repeat-x #fbf9cc;
 }
